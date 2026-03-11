@@ -23,6 +23,19 @@ const closeBtn = document.querySelector('.close-lightbox');
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
 
+// Mobile Menu Functionality
+const menuBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.querySelector('nav');
+
+if (menuBtn && nav) {
+    menuBtn.onclick = () => nav.classList.toggle('active');
+    
+    // Close menu when clicking a link
+    nav.querySelectorAll('a').forEach(link => {
+        link.onclick = () => nav.classList.remove('active');
+    });
+}
+
 function showMedia(index) {
     currentIndex = index;
     const asset = assets[currentIndex];
