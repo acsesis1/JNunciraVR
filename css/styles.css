@@ -3,8 +3,8 @@
     --secondary-color: #a0a0a0;
     --bg-dark: #070707;
     --bg-card: #111111;
-    --accent: #d4af37;
-    --accent-glow: rgba(212, 175, 55, 0.3);
+    --accent: #00a2ff;
+    --accent-glow: rgba(0, 162, 255, 0.3);
     --glass: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.1);
     --font-family: 'Inter', sans-serif;
@@ -39,7 +39,7 @@ body {
     transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .logo-container:hover { transform: scale(1.03); }
-.logo-container img { height: 160px; margin: 0 -15px; }
+.logo-container img { height: 160px; margin: 0 -15px; filter: hue-rotate(156deg); }
 
 nav { display: flex; align-items: center; gap: 2.5rem; }
 nav a { 
@@ -75,7 +75,7 @@ nav a:hover { color: var(--accent); opacity: 1; }
 
 .hero-logo-main { 
     max-width: 500px; width: 100%; margin-bottom: 2rem;
-    filter: drop-shadow(0 0 15px rgba(255,255,255,0.1));
+    filter: drop-shadow(0 0 15px rgba(255,255,255,0.1)) hue-rotate(156deg);
 }
 
 .hero-tagline {
@@ -104,7 +104,7 @@ section { padding: 10rem 8%; }
     border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 1rem;
     transition: 0.3s; cursor: default;
 }
-.exp-card:hover { background: rgba(212, 175, 55, 0.05); border-color: var(--accent); transform: scale(1.02); }
+.exp-card:hover { background: rgba(0, 162, 255, 0.05); border-color: var(--accent); transform: scale(1.02); }
 .exp-card i { color: var(--accent); font-size: 1.2rem; }
 .exp-card span { font-size: 0.85rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; }
 
