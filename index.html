@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JNuncira VR | Liderazgo en Capacitación Inmersiva</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo-container">
+            <img src="assets/images/jnunciravr FB Sombras Sin frase.png" alt="JNuncira VR">
+        </a>
+        <nav>
+            <a href="#vision">Misión</a>
+            <a href="#modulos">Módulos</a>
+            <a href="#galeria">Portfolio</a>
+            <a href="#contacto">Contacto</a>
+            <a href="assets/pdf/Brochure JNuncira-VR Inter.pdf" target="_blank" class="btn-download">Brochure 2026</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-glass-card">
+            <img src="assets/images/jnunciravr FB Sombras.png" alt="JNuncira VR" class="hero-logo-main">
+            <div class="hero-tagline">Soluciones de Próxima Generación</div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <div class="section-header">
+            <h2>Nuestra Misión</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-vr-cardboard"></i>
+                <h3>Capacitar</h3>
+                <p>Inmersión total en entornos de riesgo controlado, garantizando que el aprendizaje sea práctico, seguro y memorable.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-code"></i>
+                <h3>Desarrollar</h3>
+                <p>Ingeniería de software a medida para crear simulaciones de alta fidelidad que replican fielmente la realidad operativa.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-user-shield"></i>
+                <h3>Acompañar</h3>
+                <p>Consultoría experta en la implementación de tecnologías inmersivas dentro de los planes de formación corporativos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="modulos" style="background: #050505;">
+        <div class="section-header">
+            <h2>Módulos de Simulación</h2>
+            <p style="color: var(--secondary-color); margin-top: 1rem; letter-spacing: 2px;">Estandarización y seguridad mediante tecnología VR</p>
+            <div class="divider" style="margin-top: 2rem;"></div>
+        </div>
+        <div class="exp-grid">
+            <div class="exp-card"><i class="fas fa-mountain"></i><span>Trabajo en altura</span></div>
+            <div class="exp-card"><i class="fas fa-fire-extinguisher"></i><span>Contra incendios</span></div>
+            <div class="exp-card"><i class="fas fa-bolt"></i><span>Seguridad eléctrica</span></div>
+            <div class="exp-card"><i class="fas fa-heartbeat"></i><span>RCP / Primeros Auxilios</span></div>
+            <div class="exp-card"><i class="fas fa-hard-hat"></i><span>Uso de EPPs</span></div>
+            <div class="exp-card"><i class="fas fa-lock"></i><span>Bloqueo LOTO</span></div>
+            <div class="exp-card"><i class="fas fa-door-closed"></i><span>Espacios confinados</span></div>
+            <div class="exp-card"><i class="fas fa-mitten"></i><span>Trabajo en caliente</span></div>
+            <div class="exp-card"><i class="fas fa-box-open"></i><span>Eslingas de carga</span></div>
+            <div class="exp-card"><i class="fas fa-truck"></i><span>Preparación Camión</span></div>
+            <div class="exp-card"><i class="fas fa-tools"></i><span>Seguridad Laboral</span></div>
+            <div class="exp-card"><i class="fas fa-layer-group"></i><span>Andamios</span></div>
+            <div class="exp-card"><i class="fas fa-cloud-bolt"></i><span>Arco Eléctrico</span></div>
+            <div class="exp-card"><i class="fas fa-trowel-bricks"></i><span>Zanjas y Excavación</span></div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="section-header">
+            <h2>Visual Portfolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="gallery-container" id="galleryGrid"></div>
+    </section>
+
+    <section id="contacto">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Conectemos su empresa con el futuro.</h3>
+                <p style="color: var(--secondary-color); margin-bottom: 3rem;">Expertos en transformación digital mediante realidad extendida (XR).</p>
+                <a href="https://wa.me/573025412424" class="contact-link"><i class="fab fa-whatsapp"></i> +57 302 541 2424</a>
+                <a href="mailto:JLNUNCIRA@GMAIL.COM" class="contact-link"><i class="far fa-envelope"></i> JLNUNCIRA@GMAIL.COM</a>
+            </div>
+            <div style="opacity: 0.6;">
+                <p style="font-weight: 800; color: var(--accent); margin-bottom: 1rem;">UBICACIÓN</p>
+                <p>Carrera 26C6 # 79-100<br>Barranquilla, Colombia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Carousel -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div id="lightboxMedia"></div>
+            <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 JNUNCIRA VR INTER | HIGH-FIDELITY IMMERSIVE SOLUTIONS</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
