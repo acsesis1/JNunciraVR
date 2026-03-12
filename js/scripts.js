@@ -12,7 +12,9 @@ const assets = [
     { src: 'assets/videos/VID_20251127_151313895.mp4', type: 'video' },
     { src: 'assets/images/IMG_20251126_082244178.jpg', type: 'img' },
     { src: 'assets/images/IMG_20251127_084723954.jpg', type: 'img' },
-    { src: 'assets/images/IMG_20251127_084726943.jpg', type: 'img' }
+    { src: 'assets/images/IMG_20251127_084726943.jpg', type: 'img' },
+    { src: 'assets/videos/TEST_1.mp4', type: 'video' },
+    { src: 'assets/videos/TEST_2.mp4', type: 'video' }
 ];
 
 let currentIndex = 0;
